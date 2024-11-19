@@ -1,3 +1,4 @@
+package Model;
 
 import java.util.Objects;
 
@@ -70,7 +71,7 @@ public class Song {
 
     @Override
     public String toString() {
-        return "Song{" +
+        return "Model.Song{" +
                 "id=" + id +
                 ", artist='" + artist + '\'' +
                 ", album='" + album + '\'' +
